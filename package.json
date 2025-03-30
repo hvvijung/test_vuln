@@ -1,0 +1,14 @@
+{
+  "name": "vulnerable-app",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable web app for Snyk testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "body-parser": "^1.19.0",
+    "mysql": "^2.18.1"
+  }
+}
